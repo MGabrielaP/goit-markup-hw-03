@@ -1,0 +1,217 @@
+:root {
+  --logo-blue-color: #4d5ae5;
+  --logo-buttons-sectionfour-index-background-color: #f4f4fd;
+  --text-site-colour: #2e2f42;
+  --logo-titles-color: #2e2f42;
+  --background-page-color: #ffffff;
+  --address-text-color: #434455;
+}
+
+/*Setting up the font for the entire page */
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--address-text-color);
+  background-color: var(--background-page-color);
+}
+
+/* CLASSES*/
+/*Settings for Header */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #404bbf;
+}
+.link:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+
+.hero-section {
+  background-color: var(--logo-titles-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 1.12px;
+  color: var(--background-page-color);
+}
+
+.hero-button {
+  background-color: var(--logo-blue-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--background-page-color);
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/*.logo-first-color -> FOLOSIT*/
+.logo-first-colour {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  color: var(--logo-blue-color);
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+.logo-second-colour-header {
+  color: var(--logo-titles-color);
+  font-size: 18px;
+  font-style: "Raleway", sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  font-weight: 800px;
+  font-family: "Raleway", sans-serif;
+}
+
+.logo-second-colour-footer {
+  color: var(--logo-buttons-sectionfour-index-background-color);
+  font-size: 18px;
+  font-style: "Raleway", sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  font-weight: 800px;
+}
+
+/*Classes common to ALL the pages*/
+
+.images-text {
+  color: var(--address-text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.nav-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--logo-titles-color);
+  text-decoration: none;
+}
+
+.nav-header:hover {
+  color: #404bbf;
+}
+.nav-header:focus {
+  color: #404bbf;
+}
+
+/* Classes for Body */
+
+.contacts {
+  color: var(--address-text-color);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.buttons-nav:hover {
+  background-color: #404bbf;
+  border: none;
+  color: #ffffffff;
+}
+
+.buttons-nav:focus {
+  background-color: #404bbf;
+  border: none;
+  color: #ffffffff;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.buttons-text {
+  color: var(--logo-blue-color);
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--logo-buttons-sectionfour-index-background-color);
+}
+
+/* Classes for INDEX page*/
+.section-four-background {
+  background-color: var(--logo-buttons-sectionfour-index-background-color);
+}
+
+.tempd {
+  background-color: #ffffffff;
+}
+.images-title-index {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--logo-titles-color);
+  font-style: normal;
+  background-color: #ffffffff;
+}
+
+.images-text-index {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--address-text-color);
+}
+
+.section-titles-index {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: var(--logo-titles-color);
+}
+
+/* Classes for PORTFOLIO Page */
+
+.images-title-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--logo-titles-color);
+  text-align: center;
+  font-style: normal;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
