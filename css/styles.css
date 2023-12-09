@@ -77,7 +77,7 @@ body {
   text-align: center;
   letter-spacing: 1.12px;
   color: var(--background-page-color);
-  width: 496px;
+  max-width: 496px;
 }
 
 .hero-button {
@@ -91,6 +91,11 @@ body {
   font-family: "Roboto", sans-serif;
   align-items: flex-start;
   gap: 10px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
