@@ -138,11 +138,17 @@ body {
 
 .our-strenghts-section {
   display: flex;
-  width: 1440px;
-  height: 3200;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  width: 1440px;
+  height: 3200;
+  padding: 12opx 0 120px;
+  gap: 24px;
+}
+
+.section-two-list {
+  width: calc((100%-24px * 3) / 4);
 }
 
 .section-three-pictures {
@@ -255,6 +261,7 @@ body {
   color: var(--logo-titles-color);
   font-style: normal;
   background-color: #ffffffff;
+  margin-bottom: 8px;
 }
 
 .images-text-index {
