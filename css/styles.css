@@ -48,8 +48,18 @@ body {
 
 .nav-flex {
   display: flex;
+  width: 1440px;
+  height: 72px;
+  align-items: center;
+  justify-content: flex-start;
 }
 
+.cta {
+}
+
+.gap-nav {
+  gap: 40px;
+}
 .hero-section {
   background-color: var(--logo-titles-color);
   width: 1440px;
@@ -112,6 +122,25 @@ body {
   font-weight: 800px;
 }
 
+.our-strenghts-section {
+  display: flex;
+  width: 1440px;
+  height: 3200;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-three-pictures {
+  display: flex;
+  gap: 24px;
+}
+
+.section-four-pictures {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 /*Classes common to ALL the pages*/
 
 .images-text {
