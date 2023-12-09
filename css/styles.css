@@ -101,6 +101,8 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
 /*.logo-first-color*/
@@ -228,32 +230,6 @@ body {
   letter-spacing: 0.32px;
 }
 
-.buttons-nav:hover {
-  background-color: #404bbf;
-  border: none;
-  color: #ffffffff;
-}
-
-.buttons-nav:focus {
-  background-color: #404bbf;
-  border: none;
-  color: #ffffffff;
-}
-.pointer {
-  cursor: pointer;
-}
-
-.buttons-text {
-  color: var(--logo-blue-color);
-  border: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
-  font-family: "Roboto", sans-serif;
-  background-color: var(--logo-buttons-sectionfour-index-background-color);
-}
-
 /* Classes for INDEX page*/
 .section-four-background {
   background-color: var(--logo-buttons-sectionfour-index-background-color);
@@ -312,6 +288,7 @@ body {
   color: var(--logo-titles-color);
   text-align: center;
   font-style: normal;
+  margin-bottom: 8px;
 }
 
 .footer-text {
@@ -321,4 +298,62 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.portfolio-section-main {
+  padding: 96px 0 120px 0;
+}
+
+.portfolio-buttons-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.buttons-nav:hover {
+  background-color: #404bbf;
+  border: none;
+  color: #ffffffff;
+}
+
+.buttons-nav:focus {
+  background-color: #404bbf;
+  border: none;
+  color: #ffffffff;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.buttons-text {
+  color: var(--logo-blue-color);
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--logo-buttons-sectionfour-index-background-color);
+  padding: 12px 24px;
+  border: 1px solid var(--header-buttom-border);
+}
+.portfolio-images-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  /* justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px; */
+}
+
+.portfolio-image {
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-image-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
