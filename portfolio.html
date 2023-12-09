@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,32 +24,36 @@
 
   <body>
     <!-- Header-->
-    <header>
+    <header class="header">
       <!-- Menu Nav-->
-      <nav>
-        <a class="logo-first-colour link">
-          Web<span class="logo-second-colour-header">Studio</span></a
-        >
-        <ul class="list">
-          <li><a class="nav-header link" href="./index.html">Studio</a></li>
-          <li>
-            <a class="nav-header link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="nav-header link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul class="list">
-          <li>
-            <a class="contacts link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contacts" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="portfolio-header container">
+        <nav class="nav-flex">
+          <a class="logo-first-colour link">
+            Web<span class="logo-second-colour-header">Studio</span></a
+          >
+          <ul class="list">
+            <li><a class="nav-header link" href="./index.html">Studio</a></li>
+            <li>
+              <a class="nav-header link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="nav-header link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="list">
+            <li>
+              <a class="contacts link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contacts" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <!-- Main-->
@@ -86,6 +98,7 @@
                   width="360"
                   src="./images/banking-app-interface-concept.jpg"
                   alt="Banking App Interface Concep"
+                  class="img"
                 />
                 <div class="portfolio-image-container">
                   <h2 class="images-title-portfolio">
@@ -102,6 +115,7 @@
                   width="360"
                   src="./images/cashless-payment.jpg"
                   alt="Cashless Payment"
+                  class="img"
                 />
                 <div class="portfolio-image-container">
                   <h2 class="images-title-portfolio">Cashless Payment</h2>
@@ -116,6 +130,7 @@
                   width="360"
                   src="./images/meditaion-app.jpg"
                   alt="Meditation App"
+                  class="img"
                 />
                 <div class="portfolio-image-container">
                   <h2 class="images-title-portfolio">Meditation App</h2>
@@ -132,6 +147,7 @@
                   width="360"
                   src="./images/taxi-service.jpg"
                   alt="Taxi Service"
+                  class="img"
                 />
                 <div class="portfolio-image-container">
                   <h2 class="images-title-portfolio">Taxi Service</h2>
@@ -146,6 +162,7 @@
                   width="360"
                   src="./images/screen-illustrations.jpg"
                   alt="Screen Illustrations"
+                  class="img"
                 />
                 <div class="portfolio-image-container">
                   <h2 class="images-title-portfolio">Screen Illustrations</h2>
@@ -160,6 +177,7 @@
                   width="360"
                   src="./images/online-courses.jpg"
                   alt="Online Courses"
+                  class="img"
                 />
                 <div class="portfolio-image-container">
                   <h2 class="images-title-portfolio">Online Courses</h2>
@@ -175,6 +193,7 @@
                   width="360"
                   src="./images/instagram-stories-concept.jpg"
                   alt="Instagram Stories Concept"
+                  class="img"
                 />
                 <div class="portfolio-image-container">
                   <h2 class="images-title-portfolio">
@@ -191,6 +210,7 @@
                   width="360"
                   src="./images/organic-food.jpg"
                   alt="Organic Food"
+                  class="img"
                 />
                 <div class="portfolio-image-container">
                   <h2 class="images-title-portfolio">Organic Food</h2>
@@ -205,6 +225,7 @@
                   width="360"
                   src="./images/fresh-coffee.jpg"
                   alt="Fresh Coffee"
+                  class="img"
                 />
                 <div class="portfolio-image-container">
                   <h2 class="images-title-portfolio">Fresh Coffee</h2>
