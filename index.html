@@ -22,21 +22,26 @@
 
   <body>
     <!-- Header - Menu Nav-->
-    <header>
-      <nav class="list nav-flex">
-        <a href="" class="logo-first-colour link"
-          >Web<span class="logo-second-colour-header">Studio</span>
-        </a>
-        <ul class="list nav-flex gap-nav">
-          <li><a class="nav-header link" href="./index.html">Studio</a></li>
-          <li>
-            <a class="nav-header link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="nav-header link" href="">Contacts</a></li>
-        </ul>
-
+    <header class="header">
+      <div class="nav-flex container">
+        <nav class="list nav-header">
+          <a href="" class="logo-first-colour link"
+            >Web<span class="logo-second-colour-header">Studio</span>
+          </a>
+          <ul class="list menu-nav">
+            <li>
+              <a class="nav-header-ul link" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="nav-header-ul link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li><a class="nav-header-ul link" href="">Contacts</a></li>
+          </ul>
+        </nav>
         <address class="address">
-          <ul class="list nav-flex">
+          <ul class="list">
             <li>
               <a class="contacts link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -49,7 +54,7 @@
             </li>
           </ul>
         </address>
-      </nav>
+      </div>
     </header>
 
     <!--Main-->
@@ -100,13 +105,19 @@
         <h2 class="section-titles-index">What are we doing</h2>
         <ul class="list section-three-pictures">
           <li>
-            <img src="./images/monitor.jpg" width="360" alt="Monitor" />
+            <img
+              src="./images/monitor.jpg"
+              width="360"
+              alt="Monitor"
+              class="img"
+            />
           </li>
           <li>
             <img
               src="./images/phone-screens.jpg"
               width="360"
               alt="Phone screens"
+              class="img"
             />
           </li>
           <li>
@@ -114,6 +125,7 @@
               src="./images/phone-in-hand.jpg"
               width="360"
               alt="Computer & Phone in hand"
+              class="img"
             />
           </li>
         </ul>
@@ -124,22 +136,34 @@
         <h2 class="section-titles-index">Our Team</h2>
         <ul class="list section-four-pictures">
           <li class="section-four-pictures-background">
-            <img src="./images/mark-guerrero.jpg" alt="Mark Guerrero foto" />
+            <img
+              src="./images/mark-guerrero.jpg"
+              alt="Mark Guerrero foto"
+              class="img"
+            />
             <h3 class="images-title-index">Mark Guerrero</h3>
             <p class="images-text-index">Product Designer</p>
           </li>
           <li class="section-four-pictures-background">
-            <img src="./images/tom-ford.jpg" alt="Tom Ford foto" />
+            <img src="./images/tom-ford.jpg" alt="Tom Ford foto" class="img" />
             <h3 class="images-title-index">Tom Ford</h3>
             <p class="images-text-index">Frontend Developer</p>
           </li>
           <li class="section-four-pictures-background">
-            <img src="./images/camila-garcia.jpg" alt="Camila Garcia fotoo" />
+            <img
+              src="./images/camila-garcia.jpg"
+              alt="Camila Garcia foto"
+              class="img"
+            />
             <h3 class="images-title-index">Camila Garcia</h3>
             <p class="images-text-index">Marketing</p>
           </li>
           <li class="section-four-pictures-background">
-            <img src="./images/daniel-wilson.jpg" alt="Daniel Wilson foto" />
+            <img
+              src="./images/daniel-wilson.jpg"
+              alt="Daniel Wilson foto"
+              class="img"
+            />
             <h3 class="images-title-index">Daniel Wilson</h3>
             <p class="images-text-index">UI Designer</p>
           </li>

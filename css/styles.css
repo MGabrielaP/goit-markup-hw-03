@@ -5,6 +5,7 @@
   --logo-titles-color: #2e2f42;
   --background-page-color: #ffffff;
   --address-text-color: #434455;
+  --header-buttom-border: #e7e9fc;
 }
 /*settings for all elements*/
 
@@ -17,7 +18,7 @@
 * {
   margin: 0;
 }
-/*Setting up the font for the entire page */
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--address-text-color);
@@ -44,6 +45,8 @@ body {
 
 .address {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 
 .nav-flex {
@@ -57,7 +60,8 @@ body {
 .cta {
 }
 
-.gap-nav {
+.menu-nav {
+  display: flex;
   gap: 40px;
 }
 .hero-section {
@@ -90,7 +94,7 @@ body {
   background-color: #404bbf;
 }
 
-/*.logo-first-color -> FOLOSIT*/
+/*.logo-first-color*/
 .logo-first-colour {
   font-weight: 800;
   font-size: 18px;
@@ -99,6 +103,7 @@ body {
   color: var(--logo-blue-color);
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-second-colour-header {
@@ -143,6 +148,10 @@ body {
 }
 /*Classes common to ALL the pages*/
 
+.img {
+  display: block;
+}
+
 .images-text {
   color: var(--address-text-color);
   font-size: 16px;
@@ -152,13 +161,29 @@ body {
   letter-spacing: 0.32px;
 }
 
+.header {
+  border-bottom: var(--header-buttom-border);
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0.15px;
+}
+
 .nav-header {
+  display: flex;
+  align-items: center;
+}
+
+.nav-header-ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--logo-titles-color);
   text-decoration: none;
+  padding: 24px 0 24px 0;
 }
 
 .nav-header:hover {
