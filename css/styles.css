@@ -136,6 +136,7 @@ body {
   text-transform: uppercase;
   font-weight: 800px;
   font-family: "Raleway", sans-serif;
+  padding: 24px 0;
 }
 
 .logo-second-colour-footer {
@@ -386,7 +387,7 @@ body {
   border-top: none;
 }
 
-.header-list{
-  display: flex
+.header-list {
+  display: flex;
   gap: 40px;
 }
