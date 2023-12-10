@@ -161,7 +161,7 @@ body {
 }
 
 .section-two-list {
-  width: calc((100%- (24px * 3)) / 4);
+  width: calc((100%-72px) / 4);
   gap: 24px;
 }
 
@@ -390,4 +390,14 @@ body {
 .header-list {
   display: flex;
   gap: 40px;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
