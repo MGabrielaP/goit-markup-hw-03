@@ -49,7 +49,6 @@ body {
 .address {
   font-style: normal;
   display: flex;
-  gap: 40px;
 }
 
 .nav-flex {
@@ -215,6 +214,7 @@ body {
 .nav-header {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .nav-header-ul {
