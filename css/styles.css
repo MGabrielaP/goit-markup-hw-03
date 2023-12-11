@@ -189,6 +189,7 @@ body {
 
 .img {
   display: block;
+  max-width: 100%;
 }
 
 .images-text {
@@ -381,7 +382,7 @@ body {
 }
 
 .portfolio-image {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-image-container {
