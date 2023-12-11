@@ -211,6 +211,7 @@ body {
 .nav-header {
   display: flex;
   align-items: center;
+  padding: 24px 0 24px 0;
 }
 
 .nav-header-ul {
@@ -220,7 +221,6 @@ body {
   letter-spacing: 0.32px;
   color: var(--logo-titles-color);
   text-decoration: none;
-  padding: 24px 0 24px 0;
 }
 
 .nav-header:hover {
