@@ -32,6 +32,7 @@ body {
   list-style: none;
   display: flex;
   gap: 24px;
+  padding: 0;
 }
 
 .link {
@@ -161,7 +162,8 @@ body {
 }
 
 .section-two-list {
-  width: calc((100%-72px) / 4);
+  width: 100%;
+  min-width: 264px;
   gap: 24px;
 }
 
@@ -211,7 +213,6 @@ body {
 .nav-header {
   display: flex;
   align-items: center;
-  padding: 24px 0 24px 0;
 }
 
 .nav-header-ul {
@@ -221,6 +222,7 @@ body {
   letter-spacing: 0.32px;
   color: var(--logo-titles-color);
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .nav-header:hover {
