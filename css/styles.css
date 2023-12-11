@@ -250,9 +250,8 @@ body {
 
 .section-four-pictures-background {
   background-color: #ffffffff;
-  width: 100%;
+  width: calc(100%-48px) / 3;
   border-radius: 0px 0px 4px 4px;
-  min-width: 264px;
 }
 
 .section-four-pictures-padding {
