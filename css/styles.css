@@ -382,7 +382,8 @@ body {
 }
 
 .portfolio-image {
-  width: calc((100% - 48px) / 3);
+  width: 100%;
+  min-width: 264px;
 }
 
 .portfolio-image-container {
